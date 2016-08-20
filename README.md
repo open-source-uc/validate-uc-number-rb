@@ -1,6 +1,7 @@
 # UC Student ID Validator
+> UC Student ID Validator provides a UC Student ID (número de alumno de la Pontificia Universidad Católica de Chile) validation method for a string or a model's attribute.
 
-UC Student ID Validator provides a UC Student ID (número de alumno de la Pontificia Universidad Católica de Chile) validation method for a string or a model's attribute.
+> Credits to [Patricio López](https://github.com/mrpatiwi) for his [JS implementation](https://github.com/mrpatiwi/uc-numero-alumno).
 
 [![Gem Version](https://badge.fury.io/rb/uc_student_id.svg)](https://badge.fury.io/rb/uc_student_id)
 [![Code Climate](https://codeclimate.com/github/sasalatart/uc-student-id-validator/badges/gpa.svg)](https://codeclimate.com/github/sasalatart/uc-student-id-validator)
