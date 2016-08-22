@@ -1,4 +1,4 @@
-# Extends the String class in order to validate UC Student IDs.
+# Extends the String class in order to validate UC Student Numbers.
 class String
   # Validation method.
   #
