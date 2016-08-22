@@ -6,6 +6,7 @@
 [![Gem Version](https://badge.fury.io/rb/uc_number_validator.svg)](https://badge.fury.io/rb/uc_number_validator)
 [![Code Climate](https://codeclimate.com/github/sasalatart/uc-number-validator/badges/gpa.svg)](https://codeclimate.com/github/sasalatart/uc-number-validator)
 [![Build Status](https://travis-ci.org/sasalatart/uc-number-validator.svg?branch=master)](https://travis-ci.org/sasalatart/uc-number-validator)
+[![Coverage Status](https://coveralls.io/repos/github/sasalatart/uc-number-validator/badge.svg?branch=master)](https://coveralls.io/github/sasalatart/uc-number-validator?branch=master)
 
 ## Installation
 
