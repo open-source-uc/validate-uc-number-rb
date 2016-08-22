@@ -1,7 +1,7 @@
 class User
   include ActiveModel::Model
 
-  attr_accessor :student_id
+  attr_accessor :student_code
 
-  validates :student_id, uc_student_id: true
+  validates :student_code, uc_number: true
 end

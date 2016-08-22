@@ -3,9 +3,9 @@ class String
   # Validation method.
   #
   # Example:
-  #   >> '11533513'.valid_uc_id?
+  #   >> '11533513'.valid_uc_number?
   #   => false
-  def valid_uc_id?
+  def valid_uc_number?
     last_num = self[-1, 1].upcase
     rest_num = reverse[1..-1].split('').map(&:to_i)
 

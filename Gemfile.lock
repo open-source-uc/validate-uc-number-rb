@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    uc_student_id (0.0.1)
+    uc_number_validator (0.0.1)
       activemodel (~> 5.0)
       railties (~> 5.0)
 
@@ -75,7 +75,7 @@ PLATFORMS
 
 DEPENDENCIES
   rspec (~> 2.14)
-  uc_student_id!
+  uc_number_validator!
 
 BUNDLED WITH
    1.12.5

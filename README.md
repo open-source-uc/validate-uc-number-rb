@@ -1,17 +1,17 @@
-# UC Student ID Validator
-> UC Student ID Validator provides a UC Student ID (número de alumno de la Pontificia Universidad Católica de Chile) validation method for a string or a model's attribute.
+# UC Number Validator
+> Provides a UC Student Number (número de alumno de la Pontificia Universidad Católica de Chile) validation method for a string or a model's attribute.
 
 > Credits to [Patricio López](https://github.com/mrpatiwi) for his [JS implementation](https://github.com/mrpatiwi/uc-numero-alumno).
 
-[![Gem Version](https://badge.fury.io/rb/uc_student_id.svg)](https://badge.fury.io/rb/uc_student_id)
-[![Code Climate](https://codeclimate.com/github/sasalatart/uc-student-id-validator/badges/gpa.svg)](https://codeclimate.com/github/sasalatart/uc-student-id-validator)
-[![Build Status](https://travis-ci.org/sasalatart/uc-student-id-validator.svg?branch=master)](https://travis-ci.org/sasalatart/uc-student-id-validator)
+[![Gem Version](https://badge.fury.io/rb/uc_number_validator.svg)](https://badge.fury.io/rb/uc_number_validator)
+[![Code Climate](https://codeclimate.com/github/sasalatart/uc-number-validator/badges/gpa.svg)](https://codeclimate.com/github/sasalatart/uc-number-validator)
+[![Build Status](https://travis-ci.org/sasalatart/uc-number-validator.svg?branch=master)](https://travis-ci.org/sasalatart/uc-number-validator)
 
 ## Installation
 
 Add this line to your application's Gemfile:
 
-  `gem 'uc_student_id'`
+  `gem 'uc_number_validator'`
 
 And then execute:
 
@@ -19,28 +19,28 @@ And then execute:
 
 Or install it yourself as:
 
-  `$ gem install uc_student_id`
+  `$ gem install uc_number_validator`
 
 ## Usage
 
 If you want to validate a single string:
 
 ```ruby
-require 'uc_student_id' # Unless working with Ruby on Rails
+require 'uc_number_validator' # Unless working with Ruby on Rails
 
-'1263476J'.valid_uc_id?
+'1263476J'.valid_uc_number?
 => true
-'1263476-J'.valid_uc_id?
+'1263476-J'.valid_uc_number?
 => false
 ```
 
-If you want to validate a model attribute you just need to set `uc_student_id: true` (like any model validation in Ruby on Rails):
+If you want to validate a model attribute you just need to set `uc_number: true` (like any model validation in Ruby on Rails):
 
 ```ruby
 class User < ActiveRecord::Base
-  attr_accessor :student_code
+  attr_accessor :student_number
 
-  validates :student_code, uc_student_id: true
+  validates :student_number, uc_number: true
 end
 ```
 
