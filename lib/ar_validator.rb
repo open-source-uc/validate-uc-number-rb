@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 # Provides AR validations for UC Student Numbers.
 class UcNumberValidator < ActiveModel::EachValidator
   def validate_each(record, attribute, value)

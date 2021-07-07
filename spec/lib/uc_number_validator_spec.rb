@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require 'spec_helper'
 
 describe 'When validating ActiveModel models' do
@@ -6,7 +8,7 @@ describe 'When validating ActiveModel models' do
   end
 
   it 'should not permit integer values' do
-    User.new(student_code: 14644088).should_not be_valid
+    User.new(student_code: 14_644_088).should_not be_valid
   end
 
   it 'should correctly validate student numbers with a "J"' do
