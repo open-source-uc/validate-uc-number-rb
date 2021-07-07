@@ -14,8 +14,8 @@ class String
     sum = 0
     rest_num.each_with_index { |digit, index| sum += digit * ((index + 2) % 9) }
 
-    verificationDigit = (11 - sum % 11 != 10 ? (11 - sum % 11).to_s : 'J')
-    verificationDigit = verificationDigit === '11' ? '0' : verificationDigit
-    last_num == verificationDigit
+    verification_digit = (11 - sum % 11 != 10 ? (11 - sum % 11).to_s : 'J')
+    verification_digit = verification_digit == '11' ? '0' : verification_digit
+    last_num == verification_digit
   end
 end

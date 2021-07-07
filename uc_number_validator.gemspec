@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |s|
   s.name        = 'uc_number_validator'
-  s.version     = '0.0.1'
+  s.version     = '0.0.2'
   s.date        = '2016-08-20'
   s.summary     = "Validates a UC student's number code"
   s.description = 'A simple UC student number code validation gem'
@@ -17,5 +17,5 @@ Gem::Specification.new do |s|
 
   s.add_development_dependency 'coveralls', '~> 0.7'
   s.add_development_dependency 'rspec', '~> 2.14'
-  s.add_development_dependency 'simplecov', '~> 0.8'
+  s.add_development_dependency 'simplecov', '~> 0.19'
 end
