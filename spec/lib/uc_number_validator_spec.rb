@@ -13,6 +13,10 @@ describe 'When validating ActiveModel models' do
     User.new(student_code: '1263476J').should be_valid
   end
 
+  it 'should correctly validate student numbers with digit "11"' do
+    User.new(student_code: '18640850').should be_valid
+  end
+
   it 'should not permit invalid student numbers' do
     User.new(student_code: '12345678').should_not be_valid
   end
