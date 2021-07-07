@@ -3,7 +3,7 @@
 Gem::Specification.new do |s|
   s.name        = 'uc_number_validator'
   s.version     = '0.0.2'
-  s.date        = '2016-08-20'
+  s.date        = '2021-07-21'
   s.summary     = "Validates a UC student's number code"
   s.description = 'A simple UC student number code validation gem'
   s.authors     = ['Sebastián Salata']
