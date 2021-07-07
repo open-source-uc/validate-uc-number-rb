@@ -31,6 +31,10 @@ describe 'When validating strings' do
     '1263476J'.valid_uc_number?.should be_truthy
   end
 
+  it 'should correctly validate student numbers with digit "11"' do
+    '18640850'.valid_uc_number?.should be_truthy
+  end
+
   it 'should not permit invalid student numbers' do
     '12345678'.valid_uc_number?.should be_falsey
   end
