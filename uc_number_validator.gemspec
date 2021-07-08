@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
   s.authors     = ['Sebastián Salata']
   s.email       = 'sa.salatart@gmail.com'
   s.files       = %w[lib/uc_number_validator.rb lib/string_validator.rb lib/ar_validator.rb]
-  s.homepage    = 'https://github.com/sasalatart/uc-number-validator'
+  s.homepage    = 'https://github.com/open-source-uc/uc-number-validator'
   s.license     = 'MIT'
   s.metadata    = {
     'github_repo' => 'git@github.com:open-source-uc/validate-uc-number-rb.git'
