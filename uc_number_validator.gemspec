@@ -11,11 +11,15 @@ Gem::Specification.new do |s|
   s.files       = %w[lib/uc_number_validator.rb lib/string_validator.rb lib/ar_validator.rb]
   s.homepage    = 'https://github.com/sasalatart/uc-number-validator'
   s.license     = 'MIT'
-
+  s.metadata    = {
+    'github_repo' => 'git@github.com:open-source-uc/validate-uc-number-rb.git'
+  }
+  
   s.add_dependency 'activemodel', '~> 5.0'
   s.add_dependency 'railties', '~> 5.0'
 
   s.add_development_dependency 'coveralls', '~> 0.7'
   s.add_development_dependency 'rspec', '~> 2.14'
   s.add_development_dependency 'simplecov', '~> 0.19'
+
 end
